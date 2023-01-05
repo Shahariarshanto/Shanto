@@ -159,6 +159,51 @@ h1 {
 .summary-resume {
 }
 .resume-cards {
+  display: flex;
+  margin: 30px 0;
+
+  gap: 60px;
 }
 .resume-card {
+  margin-top: 40px;
+  max-width: 550px;
+}
+
+.resume-card h4 {
+  margin: 15px 0;
+}
+.resume-card P {
+  margin-bottom: 15px;
+  line-height: 35px;
+}
+
+.contact {
+  display: flex;
+  margin: 130px 10%;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff8f3;
+}
+.connect {
+  margin: 0 30px 0 120px;
+  max-width: 600px;
+}
+.connect > h1 {
+  margin-bottom: 30px;
+}
+.message-section {
+  padding: 30px 35px;
+}
+
+.message-form {
+  display: flex;
+  flex-direction: column;
+}
+.message-form input,
+textarea {
+  padding: 18px 30px;
+  margin: 12px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
 }
